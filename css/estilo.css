@@ -1,0 +1,145 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 9, 2017, 7:12:07 PM
+    Author     : Ana Leon Mat.0014-0231
+*/
+
+
+/*------------------Inicia estilo Cabeceras y Generales------------------- */
+
+* {
+    border: 1px solid green;
+    font-family: Gadugi; 
+}
+
+
+body {
+    
+}
+
+#contenedor1 {
+    background-color: white;
+
+}
+
+#cabecera {
+    margin: auto 15%;
+    height: 250px;
+
+}
+
+
+#contenedor1 #cabecera img {
+    width: 350px;
+    height: 200px;
+
+}
+
+
+#contenedor2 {
+    background-color: whitesmoke;
+    height: 100%;
+}
+
+#contenedor2 #contenido {
+    margin: auto 15%;
+    
+}
+
+#contenido {
+    padding: 1em 0em 0.5em 0em;
+    
+}
+
+
+#menu {
+    width: auto;   
+    height: 50px;
+    margin: auto auto;
+}
+
+#menu ul {
+    width: auto;   
+    height: auto;
+    text-align: center;
+    margin: 12px 0 0 0;
+}
+
+#menu ul li {
+    list-style-type: none;
+    display: inline;
+    color: green;
+    padding: 0.5em 1.5em 0.5em 1.5em;
+    margin-left: 2em;
+    margin-right: 2em;
+
+}
+
+/*------------------Termina estilo Cabeceras y Generales------------------- */
+
+
+/*--------------------------Inicio del Banner------------------------------ */
+
+.banner {
+    width: 940px;   
+    height: 500px;
+    margin: auto;
+    
+    background-size: 100% 100%;
+    animation: banner 12s infinite;
+}
+
+@keyframes banner {
+    0%, 20% {
+        background-image: url("../imagenes/gato.jpg");
+        opacity: 1;
+    }
+    31%, 33% {
+        opacity: 0.1;
+    }
+    34%, 54% {
+        background-image: url("../imagenes/pericos2.jpg");
+        opacity: 1;
+    }
+    55%, 57% {
+        opacity: 0.1;
+    }
+    58%, 77% {
+        background-image: url("../imagenes/perro.jpg");
+        opacity: 1;
+    }
+    78%, 80% {
+        opacity: 0.1;
+    }
+    81%, 97% {
+        background-image: url("../imagenes/hamster.jpg");
+        opacity: 1;
+    }
+    98%, 100% {
+        opacity: 0.1;
+    }
+}
+
+/*--------------------------Termina el Banner------------------------------ */
+
+
+/*----------------------------Inicia Pie----------------------------------- */
+
+
+#pie {
+
+    clear: both;
+    height: 200px;
+    text-align: center;
+  
+}
+
+
+#pie img {
+    width: 20px;
+    height: 20px;
+}
