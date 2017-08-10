@@ -9,16 +9,14 @@ and open the template in the editor.
 */
 
 
-/*------------------Inicia estilo Cabeceras y Generales------------------- */
-
-* {
+/*------------------Inicia estilo Cabeceras y Generales------------------- *//** {
     border: 1px solid green;
     font-family: Gadugi; 
-}
+}*/
 
 
 body {
-    
+  font-family: Gadugi;  
 }
 
 #contenedor1 {
@@ -42,42 +40,43 @@ body {
 
 #contenedor2 {
     background-color: whitesmoke;
-    height: 100%;
+    height: auto; 
 }
 
 #contenedor2 #contenido {
-    margin: auto;
+    margin: auto 15%;
+/*margin: auto;*/
     width: auto;   
     height: auto;
     
 }
 
 #contenido {
-    padding: 1em 0em 0.5em 0em;
+    padding: 0.5em 0em 1em 0em;
     
 }
 
 
 #menu {
     width: auto;   
-    height: 50px;
-    margin: auto auto;
+    height: 30px;
+    margin: auto 15%;/*margin: auto auto;*/ padding: 0.5em 0em 1em 0em;
 }
 
 #menu ul {
     width: auto;   
     height: auto;
     text-align: center;
-    margin: 12px 0 0 0;
+    margin: auto auto;/*margin: 12px 0 0 0;*/
 }
 
 #menu ul li {
     list-style-type: none;
     display: inline;
     color: green;
-    padding: 0.5em 1.5em 0.5em 1.5em;
-    margin-left: 2em;
-    margin-right: 2em;
+     padding: 0em 0.5em 0em 0.5em;/*padding: 0.5em 1.5em 0.5em 1.5em;
+    margin-left: 1em;
+    margin-right: 1em;*/
 
 }
 
@@ -87,8 +86,8 @@ body {
 /*--------------------------Inicio del Banner------------------------------ */
 
 .banner {
-    width: 940px;   
-    height: 500px;
+    width: 100%;   
+    height: 70%;
     margin: auto;
     
     background-size: 100% 100%;
