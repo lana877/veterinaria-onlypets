@@ -27,7 +27,7 @@ body {
 #cabecera {
     margin: auto 15%;
     height: 250px;
-
+    
 }
 
 
@@ -37,50 +37,29 @@ body {
 
 }
 
-
 #contenedor2 {
     background-color: whitesmoke;
     height: auto; 
+    padding: 0.5em 0em 1em 0em; 
+    
 }
 
 #contenedor2 #contenido {
     margin: auto 15%;
-/*margin: auto;*/
     width: auto;   
     height: auto;
     
 }
 
-#contenido {
-    padding: 0.5em 0em 1em 0em;
-    
-}
 
-
-#menu {
-    width: auto;   
-    height: 30px;
-    margin: auto 15%;/*margin: auto auto;*/ padding: 0.5em 0em 1em 0em;
-}
-
-#menu ul {
-    width: auto;   
-    height: auto;
-    text-align: center;
-    margin: auto auto;/*margin: 12px 0 0 0;*/
-}
-
-#menu ul li {
-    list-style-type: none;
-    display: inline;
-    color: green;
-     padding: 0em 0.5em 0em 0.5em;/*padding: 0.5em 1.5em 0.5em 1.5em;
-    margin-left: 1em;
-    margin-right: 1em;*/
+#contenedor2 #productos,#contenido1,#contenido2,#formulario,#mapa,#clases {
+    margin: auto 15%;
+    background-color: whitesmoke;
 
 }
 
 /*------------------Termina estilo Cabeceras y Generales------------------- */
+
 
 
 /*--------------------------Inicio del Banner------------------------------ */
@@ -128,19 +107,133 @@ body {
 /*--------------------------Termina el Banner------------------------------ */
 
 
+
 /*----------------------------Inicia Pie----------------------------------- */
 
-
 #pie {
-
+    
     clear: both;
     height: 100px;
-    text-align: center;
-  
+    text-align: center;  
 }
-
 
 #pie img {
     width: 20px;
     height: 20px;
 }
+/*----------------------------Termina Pie----------------------------------- */
+
+
+/*----------------------------Inicia Menu----------------------------------- */
+
+
+#menu {
+    width: auto;   
+    height: 30px;
+    margin: auto 0 0 0;/*margin: auto auto;*/ 
+    padding: 1em 0em 1em 0em;
+
+}
+
+#menu ul {
+    width: auto;   
+    height: auto;
+    text-align: center;
+    margin: auto auto;/*margin: 12px 0 0 0;*/
+}
+
+#menu ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 0em 1.3em 0em 1.3em;
+    font-size: 24px; font-weight: bold;
+    color: limegreen;
+    
+}
+
+
+#menu ul li:hover{
+    background: greenyellow;
+    border-radius: 10px;
+    color: limegreen;
+    font-weight: normal;
+}
+
+#menu a {
+    text-decoration: none;
+    color: limegreen;
+    font-size: 24px; font-weight: bold;
+
+}
+
+#menu a:link a:visited{
+    font-size: 22px;
+    background: greenyellow;
+    color: limegreen;
+    text-decoration: none;
+}
+
+
+/*------------------------Termina Menu----------------------------------- */
+
+
+
+/*------------------------Comienza Parrafo---------------------------------- */
+
+#contenedor2 ul {
+    width: auto;   
+    height: auto;
+    text-align: left;
+    margin: auto auto;/*margin: 12px 0 0 0;*/
+}
+
+#contenedor2 ul li {
+    list-style-type: none;
+    padding: 1em 0em 1em 0em;
+    font-size: 18px; font-weight: bold;
+    color: darkorange;
+    text-decoration: none;
+    
+}
+
+
+#contenedor2 p {
+    font-size: 18px;
+}
+
+#contenedor2 h1 {
+    font-size: 26px;
+    color: green;
+}
+
+#contenedor2 h3 {
+    font-size: 22px;
+    color: limegreen;
+}
+
+
+/*------------------------Termina Parrafo---------------------------------- */
+
+
+/*----------------------Comienza estilo Quienes Somos---------------------- */
+#contenedor2 #contenido1 {
+    float: left;
+    width: 20%;
+    height: auto;
+    margin-right: auto;
+    background-color: whitesmoke;
+
+}
+
+#contenedor2 #contenido2 {
+    float: left;
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    background-color: whitesmoke;
+
+}
+
+
+
+/*----------------------Termina estilo Quienes Somos---------------------- */
